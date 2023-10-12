@@ -9,4 +9,81 @@ body {
     min-height: 100vh;
     place-items: center;
     background-color: #f2f5f9;
+    font-family: Lato, sans-serif;
+    line-height: 1.5;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.hero-img {
+    border-radius: 1em;
+}
+
+.image-container {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    bottom: -1%;
+    width: 100%;
+}
+
+h1 {
+    font-family: Poppins, sans-serif;
+    margin-top: 0;
+    font-size: 1.5rem;
+    color: #3B404F;
+}
+
+h1 + p {
+    color: #6E798D;
+}
+
+.personal-details h2 {
+    font-size: 1rem;
+    margin-bottom: 0;
+    color: #161B2E;
+}
+
+.personal-details p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #778396;
+}
+
+.card {
+    background-color: #fff;
+    max-width: 25rem;
+    border-radius: 1em;
+    box-shadow: 1px 1px 15px 1px rgba(0, 0, 0, 0.2);
+    animation: enter 1s ease-in;
+}
+
+@keyframes enter {
+    from {
+        opacity: 0;
+        transform: translateY(15%);
+    }
+}
+
+.inner-card {
+    padding: 1.5em;
+}
+
+footer {
+    display: flex;
+    gap: 1.5em;
+    align-items: flex-end;
+    
+}
+
+.avatar {
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    border: 1px solid #f2f3f7;
 }
